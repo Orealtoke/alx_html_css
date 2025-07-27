@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column; /* Stack header, main, footer vertically */
+    height: 100vh; /* Full height of the screen */
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row; /* Place article and aside side-by-side */
+    flex: auto; /* Main grows automatically to fill space */
+}
+
+article {
+    flex: 2; /* Takes 2/3 of the space */
+    overflow-y: auto; /* Makes it scrollable vertically if content overflows */
+    padding: 1em;
+}
+
+aside {
+    flex: 1; /* Takes 1/3 of the space */
+    overflow-y: auto; /* Also scrollable */
+    padding: 1em;
+}
+
+header, footer {
+    background-color: #f2f2f2;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+}
+
+article {
+    background-color: #fff;
+}
+
+aside {
+    background-color: #eaeaea;
+}
