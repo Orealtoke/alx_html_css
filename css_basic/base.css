@@ -20,3 +20,12 @@ footer {
     text-align: center;
     font-size: 0.9em;
 }
+
+.works_on_smartphone main {
+    display: block;
+}
+
+.works_on_smartphone article,
+.works_on_smartphone aside {
+    width: 100%;
+}
