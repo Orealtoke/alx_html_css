@@ -1,0 +1,225 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #000;
+  padding: 20px 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  height: 40px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #c271ff;
+}
+
+/* Hero Section */
+main > section:first-of-type {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./images/hero-bg.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+main h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+main section:first-of-type span {
+  font-size: 1.2rem;
+  margin: 0 10px;
+  display: inline-block;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #c271ff;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #a44ee3;
+}
+
+/* Learn from the pros */
+main section:nth-of-type(1) h2 {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 2rem;
+  color: #c271ff;
+}
+
+main section:nth-of-type(1) > div:nth-of-type(2) {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+main section:nth-of-type(1) img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+/* Quote Section */
+main section:nth-of-type(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c271ff;
+  color: white;
+  padding: 60px 40px;
+  gap: 40px;
+}
+
+main section:nth-of-type(2) img {
+  width: 160px;
+  height: auto;
+  border-radius: 50%;
+}
+
+blockquote {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+/* Tutorials Section */
+main section:nth-of-type(3) {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+main section:nth-of-type(3) > h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+main section:nth-of-type(3) > div {
+  display: inline-block;
+  max-width: 240px;
+  margin: 10px;
+  text-align: left;
+}
+
+main section:nth-of-type(3) img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.fa-star {
+  color: #c271ff;
+}
+
+/* Membership Section */
+main section:nth-of-type(4) {
+  text-align: center;
+  background-color: #071629;
+  color: white;
+  padding: 80px 20px;
+}
+
+main section:nth-of-type(4) > h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+main section:nth-of-type(4) > div {
+  display: inline-block;
+  max-width: 200px;
+  margin: 10px;
+}
+
+/* FAQ Section */
+main section:nth-of-type(5) {
+  padding: 60px 20px;
+}
+
+main section:nth-of-type(5) h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+main section:nth-of-type(5) > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+main section:nth-of-type(5) h3 {
+  color: #c271ff;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+footer section > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+footer img {
+  height: 40px;
+}
+
+footer i {
+  color: white;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+footer i:hover {
+  color: #c271ff;
+}
