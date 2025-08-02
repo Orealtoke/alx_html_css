@@ -7,7 +7,6 @@
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  background-color: #071629;
   color: white;
   line-height: 1.5;
 }
@@ -18,10 +17,17 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+.hero-wrapper {
+  background-image: url("./images/object.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
 
 /* Header Styles */
 header {
-  background-color:#071629;
   padding: 20px 0;
  
 }
@@ -59,7 +65,7 @@ nav ul li a:hover {
 
 /* First Section */
 main section:first-of-type {
-  background-image: url("./images/object.png");
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -186,4 +192,170 @@ main section:first-of-type p {
   font-style: italic;
   font-size: 14px;
   opacity: 0.9;
+}
+
+.videos {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.videos h2 {
+  font-size: 32px;
+}
+
+.videos h2 span {
+  color: #C271FF;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.video-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  text-align: left;
+}
+
+.video-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.video-card h3 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+}
+
+.video-author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.video-author img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.video-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #999;
+  margin-top: 10px;
+}
+
+.membership {
+  background: #071629;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.membership h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.membership h2 span {
+  color: #C271FF;
+}
+
+.membership-benefits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.benefit {
+  max-width: 200px;
+}
+
+.benefit img {
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.benefit h3 {
+  margin-bottom: 10px;
+}
+
+.btn-purple {
+  background: #C271FF;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.faq {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.faq h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  text-align: left;
+}
+
+.faq-item h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.faq-item p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.footer {
+  background: #071629;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.social-icons a img {
+  width: 20px;
+  margin: 0 8px;
+}
+
+.copyright {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #ccc;
 }
